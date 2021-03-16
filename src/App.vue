@@ -1,24 +1,11 @@
 <template>
-  <appNavBar/>
-  <carrusel/>
-  <tarjeta/>
+<appnavbar/>
+  <!--
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+  -->
+  <router-view/>
 </template>
-
-<script>
-import appNavBar from './components/appNavBar.vue'
-import carrusel from './components/carrusel.vue'
-import tarjeta from './components/tarjeta.vue'
-
-export default {
-  name: 'App',
-  components: {
-    appNavBar,
-    carrusel,
-    tarjeta
-  }
-}
-
-</script>
 
 <style>
 #app {
@@ -27,8 +14,36 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 0px;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+</style>
+<script>
+// @ is an alias to /src
+
+
+
+import appnavbar from '@/components/appNavBar.vue'
+
+
+export default 
+{
+  name: 'Home',
+  components: {
+    appnavbar
+  }
 }
 
 
-</style>
+</script>
