@@ -13,7 +13,7 @@
         <a class="nav-link" href="">Lorem</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Ipsum</a>
+        <a class="nav-link" href="#/about">Ipsum</a>
       </li>
     </ul>
   </div>
