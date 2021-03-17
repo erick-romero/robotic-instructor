@@ -5,6 +5,7 @@
     <router-link to="/about">About</router-link>
   -->
   <router-view/>
+  
 </template>
 
 <style>
@@ -14,6 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: cyan;
 }
 
 #nav {
@@ -37,11 +39,14 @@
 import appnavbar from '@/components/appNavBar.vue'
 
 
+
+
 export default 
 {
-  name: 'Home',
+  name: 'App',
   components: {
-    appnavbar
+    appnavbar,
+    
   }
 }
 

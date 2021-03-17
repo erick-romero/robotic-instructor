@@ -1,31 +1,50 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand">Robotic Instructor</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item" onclick="About()">
-        <router-link to="/about"> <a class="nav-link">Inicio </a> </router-link>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Lorem</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/about">Ipsum</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#">Robotic Instructor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <router-link to=""> <a class="nav-link"> Login </a> </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to=""> <a class="nav-link"> Register </a> </router-link>
+          </li> 
+        </ul>
+      </div>
+  </nav>
 </template>
 
-<style>
 
+
+
+<style>
+.navbar
+{
+  background-color:#0c6980 ;
+  height:100px;
+}
+.navbar-brand
+{
+  font-size: 50px !important;
+  color: white;
+  font-family:Lato,arial;
+}
+.nav-link
+{
+  font-size: 25px;
+ color:white; 
+}
+.collapse
+{
+  padding-right:30px;
+}
 </style>
 
 
 <script>
-
-
 </script>

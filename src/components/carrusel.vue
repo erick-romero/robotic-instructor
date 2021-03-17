@@ -24,9 +24,9 @@
 
 <style>
 .carousel-item{
-    height: 700px;
+    height: 550px;
 } 
 .carousel-item img{
-    height: 700px;
+    height: 550px;
 }
 </style>
