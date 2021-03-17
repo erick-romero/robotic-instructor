@@ -1,11 +1,34 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHashHistory } from 'vue-router';
+import Home from '../views/Home.vue';
+import Login from '../views/Login.vue';
+import Logeado from '../views/Logeado.vue';
+import Registro from '../views/Registro.vue';
+import firebase from 'firebase';
+
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/logeado',
+    name: 'logeado',
+    component: Logeado,
+    meta: {
+      authRequired: true
+    }
+  },
+  {
+    path: '/registro',
+    name: 'registro',
+    component: Registro,
   },
   {
     path: '/about',
@@ -22,4 +45,19 @@ const router = createRouter({
   routes
 })
 
-export default router
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(record => record.meta.authRequired)) {
+      if (firebase.auth().currentUser) {
+          next();
+      } else {
+          alert('You must be logged in to see this page');
+          next({
+              path: '/',
+          });
+      }
+  } else {
+      next();
+  }
+});
+
+export default router;

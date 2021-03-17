@@ -1,6 +1,8 @@
 <template>
   <carrusel/>
+  <h1>Robotic Instructor</h1>
   <tarjeta/>
+  <router-view/>
 </template>
 
 

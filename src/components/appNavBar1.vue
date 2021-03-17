@@ -1,7 +1,7 @@
 <template>
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="#">Robotic Instructor</a>
+    <a class="navbar-brand" href="/">Robotic Instructor</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,19 +9,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <router-link to=""> <a class="nav-link"> Login </a> </router-link>
+            <router-link to="/Login"> <a class="nav-link"> Login </a> </router-link>
           </li>
           <li class="nav-item">
-            <router-link to=""> <a class="nav-link"> Register </a> </router-link>
+            <router-link to="/Registro"> <a class="nav-link"> Register </a> </router-link>
           </li> 
         </ul>
       </div>
   </nav>
+  <router-view/>
 </template>
-
-
-
-
 <style>
 .navbar
 {
