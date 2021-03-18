@@ -18,6 +18,9 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" v-model="password">
                   </div>
                     <button type="submit" class="btn btn-outline-success" @click="login()">Inicio de sesión</button>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-outline-primary" @click="forgotPwd()">Olvidaste tu contraseña?</button>
                 </form>
               </div>
             </div>
@@ -28,6 +31,7 @@
 
 <script>
 import firebase from 'firebase';
+
 export default {
   name:'LoginForm',
   data(){
@@ -40,17 +44,25 @@ export default {
   },
     methods: {
         login() {
-            firebase
-                .auth()
-                .signInWithEmailAndPassword(this.email, this.password)
-                .then(() => {
-                    alert('Successfully logged in');
-                    this.$router.push('/home_loged');
-                })
-                .catch(error => {
-                    alert(error.message);
-                });
+            firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(() => {
+              alert('Successfully logged in');
+              this.$router.push('/home_loged');
+            })
+            .catch(error => {
+              console.log(error.message);
+              alert(error.message);
+            });
         },
+        forgotPwd(){
+          firebase.auth().sendPasswordResetEmail(this.email).then(() => {
+              alert('Correo de Reseteo de contraseña enviado');
+              location.reload(true);
+            })
+            .catch(error => {
+              console.log(error.message);
+              alert(error.message);
+            });
+        }
     },
 };
 </script>
