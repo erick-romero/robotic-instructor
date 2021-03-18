@@ -45,7 +45,7 @@ export default {
                 .signInWithEmailAndPassword(this.email, this.password)
                 .then(() => {
                     alert('Successfully logged in');
-                    this.$router.push('/Logeado');
+                    this.$router.push('/home_loged');
                 })
                 .catch(error => {
                     alert(error.message);

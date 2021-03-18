@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Diseño from '../views/Diseño.vue';
 import Login from '../views/Login.vue';
-import Logeado from '../views/Logeado.vue';
+import Home_loged from '../views/Home_loged.vue';
 import Registro from '../views/Registro.vue';
 
 
@@ -25,9 +25,9 @@ const routes = [
     component: Login
   },
   {
-    path: '/logeado',
-    name: 'logeado',
-    component: Logeado,
+    path: '/home_loged',
+    name: 'home_loged',
+    component: Home_loged,
   },
   {
     path: '/registro',

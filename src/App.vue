@@ -1,5 +1,8 @@
 <template>
-<appnavbar/>
+<div class="app">
+  <appnavbar :name="$route.name"/>
+</div>
+
   <!--
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
