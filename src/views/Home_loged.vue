@@ -9,7 +9,7 @@
 
 <script>
 import carrusel from '@/components/carrusel.vue'
-import tarjeta from '@/components/tarjeta.vue'
+import tarjeta from '@/components/tarjeta_logeado.vue'
 export default {
   name:'Home_loged',
   components:{
