@@ -77,7 +77,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <router-link to="/Login"> <a class="nav-link"> Cuenta </a> </router-link>
+            <router-link to="/cuenta"> <a class="nav-link"> Cuenta </a> </router-link>
           </li>
         </ul>
       </div>

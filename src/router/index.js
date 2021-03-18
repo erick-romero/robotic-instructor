@@ -4,6 +4,7 @@ import Diseño from '../views/Diseño.vue';
 import Login from '../views/Login.vue';
 import Home_loged from '../views/Home_loged.vue';
 import Registro from '../views/Registro.vue';
+import Cuenta from '../views/Cuenta.vue';
 
 
 const routes = [
@@ -35,12 +36,12 @@ const routes = [
     component: Registro,
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/cuenta',
+    name: 'cuenta',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: Cuenta
   }
 ]
 
