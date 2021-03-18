@@ -31,11 +31,21 @@
   color: white;
   font-family:Lato,arial;
 }
+
+.navbar-brand:hover {
+    color: white;
+}
+
 .nav-link
 {
   font-size: 25px;
  color:white; 
 }
+
+.nav-link:hover {
+  color: white;
+}
+
 .collapse
 {
   padding-right:30px;
