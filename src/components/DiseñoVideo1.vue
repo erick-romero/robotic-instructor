@@ -3,8 +3,9 @@
   <div class="video">
       <div class="embed-responsive embed-responsive-21by9">
       <h2>Video</h2>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=rblYSKz_VnI" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <h1>ya es toda wey</h1>
   </div>
 </template>
 
