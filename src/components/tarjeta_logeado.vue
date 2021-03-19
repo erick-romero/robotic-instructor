@@ -16,7 +16,7 @@
     <div class="card-body">
         <h5 class="card-title">Programación</h5>
         <p class="card-text">La programación es la encargada de darle las instrucciones al hardware para que este actúe.</p>
-        <a href="#" class="btn btn-primary">Ir</a>
+        <router-link to = "/Programacion"> <a class="btn btn-primary">Ir</a> </router-link>
     </div>
     </div>
     <div class="card mx-auto" style="width: 18rem;">

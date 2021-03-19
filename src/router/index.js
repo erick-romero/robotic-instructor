@@ -5,7 +5,7 @@ import Login from '../views/Login.vue';
 import Home_loged from '../views/Home_loged.vue';
 import Registro from '../views/Registro.vue';
 import Cuenta from '../views/Cuenta.vue';
-import Programacion from '../views/programacion.vue';
+import Programacion from '../views/Programacion.vue';
 
 
 

@@ -7,7 +7,7 @@
                 <img src="" class="card-img-top" alt="">
                 <div class="card-body align-center">
                     <h5 class="card-title">Episodio 1</h5>
-                    <p class="card-text">¿Qué es la programacion?</p>
+                    <p class="card-text">Â¿Que es la programacion?</p>
                     <a href="#" class="btn btn-primary">Ir</a>
                 </div>
             </div>

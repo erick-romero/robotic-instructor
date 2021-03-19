@@ -1,6 +1,6 @@
 <template>
 
-    <diseño_programacion />
+    <diseÃ±o_programacion />
     <router-view />
 </template>
 
@@ -8,13 +8,13 @@
 <script>
 // @ is an alias to /src
 
-import diseño_programacion from '@/components/diseño_programacion.vue'
+import diseÃ±o_programacion from '@/components/diseÃ±o_programacion.vue'
 
 export default
 {
   name: 'Programacion',
   components: {
-    diseño_programacion
+    diseÃ±o_programacion
   }
 }
 
