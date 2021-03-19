@@ -8,15 +8,8 @@
   </div>
 </template>
 
-<script>
-export default 
-{
-  name: 'DiseñoVideo1',
-  components: {
-  }
-}
-</script>
-
 <style>
-
+.video{
+  background-color: white;
+}
 </style>
