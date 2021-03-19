@@ -1,5 +1,8 @@
 <template>
-  <h1>Diseño: Episodio 1</h1>
+<div id="top">
+  <router-link to="/diseño"> <button id="xd" type="button" class="btn btn-outline-primary ">Regresar</button> </router-link>
+  <h1 id="tit">Diseño: Episodio 1</h1>
+</div>  
   <div class="video">
       <div class="embed-responsive embed-responsive-21by9">
       <h2>Video</h2>
@@ -33,5 +36,12 @@
 .texto{
   font-size: 25px;
   text-align:justify;
+}
+#tit{
+  width: 90%;
+  display: inline-block;
+}
+#xd{
+  padding-bottom: 10px;
 }
 </style>
