@@ -5,13 +5,18 @@ import Login from '../views/Login.vue';
 import Home_loged from '../views/Home_loged.vue';
 import Registro from '../views/Registro.vue';
 import Cuenta from '../views/Cuenta.vue';
-
+import Blockly_zone from '../views/Blockly_zone.vue';
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/blockly_zone',
+    name: 'blockly_zone',
+    component: Blockly_zone
   },
 
   {

@@ -1,43 +1,55 @@
 <template>
   <div class="cuenta">
-      <h1>Bienvenido, {{ name }} </h1>
-      <button type="submit" class="btn btn-outline-primary" @click="verify()">Verificación de correo</button>
-      <br>
-      <br>
-      <button type="submit" class="btn btn-outline-secondary" v-on:click="isHidden2 = !isHidden">Cambio de correo</button>
-      <br>
-      <br>
-      <div v-if="!isHidden2">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputPassword1" class="card-text">Nuevo Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" v-model="email">
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div id="main" class="col-md-8">
+          <div class="card border-gray1 mt-5">
+           <div class="card-header">
+            <h1 class = "card-title">Configuración de cuenta de  {{ name }}</h1>
           </div>
-          <button type="submit" class="btn btn-outline-success" @click="changeEmail()">Cambiar correo</button>
-          <br><br>
-        </form>
-      </div>
-      <button type="submit" class="btn btn-outline-secondary" v-on:click="isHidden = !isHidden">Cambio de contraseña</button>
-      <br>
-      <br>
-      <div v-if="!isHidden">
-        <h1>Debes de tener tu correo verificado para cambiar tu contraseña</h1>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputPassword1" class="card-text">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" v-model="password">
+          <div class="card-body">
+            <button type="submit" class="btn btn-outline-primary" @click="verify()">Verificación de correo</button>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-outline-secondary" v-on:click="isHidden2 = !isHidden">Cambio de correo</button>
+            <br>
+            <br>
+            <div v-if="!isHidden2">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" class="card-text">Nuevo Correo electrónico</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" v-model="email">
+                </div>
+                <button type="submit" class="btn btn-outline-success" @click="changeEmail()">Cambiar correo</button>
+                <br><br>
+              </form>
+            </div>
+            <button type="submit" class="btn btn-outline-warning" v-on:click="isHidden = !isHidden">Cambio de contraseña</button>
+            <br>
+            <br>
+            <div v-if="!isHidden">
+              <h1>Debes de tener tu correo verificado para cambiar tu contraseña</h1>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" class="card-text">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" v-model="password">
+                </div>
+                <button type="submit" class="btn btn-outline-success" @click="changePwd()">Cambiar contraseña</button>
+                <br><br>
+              </form>
+            </div>
+            <button type="submit" class="btn btn-outline-danger" @click="signout()">Cierre de sesión</button>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-outline-success" @click="Blockly()">Blockly</button>
+            <br>
+            <br>
           </div>
-          <button type="submit" class="btn btn-outline-success" @click="changePwd()">Cambiar contraseña</button>
-          <br><br>
-        </form>
+        </div>
       </div>
-      <button type="submit" class="btn btn-outline-danger" @click="signout()">Cierre de sesión</button>
-      <br>
-      <br>
-
-
+    </div>
   </div>
-
+</div>
 </template>
 
 <script>
@@ -53,6 +65,9 @@ export default {
       }
     },
     methods:{
+      Blockly(){
+        this.$router.push('/blockly');
+      },
       changeEmail(){
         var user = firebase.auth().currentUser;
           user.updateEmail(this.email).then(() =>{
