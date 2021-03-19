@@ -8,7 +8,7 @@
           <div class="card-body align-center">
               <h5 class="card-title">Episodio 1</h5>
               <p class="card-text">¿Qué es el diseño 3D?</p> 
-              <a href="#" class="btn btn-primary">Ir</a>
+              <router-link to = "/DiseñoVideo"><a class="btn btn-primary">Ir</a></router-link>
           </div>
     </div>
   </div>
