@@ -5,14 +5,26 @@ import Login from '../views/Login.vue';
 import Home_loged from '../views/Home_loged.vue';
 import Registro from '../views/Registro.vue';
 import Cuenta from '../views/Cuenta.vue';
-import Programacion from '../views/Programacion.vue';
+import Programacion from '../views/programacion.vue';
 
+
+
+
+
+
+import Blockly_zone from '../views/Blockly_zone.vue';
+import DiseñoVideo from '../views/DiseñoVideo.vue';
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/blockly_zone',
+    name: 'blockly_zone',
+    component: Blockly_zone
   },
 
   {
@@ -39,11 +51,20 @@ const routes = [
   {
     path: '/cuenta',
     name: 'cuenta',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: Cuenta
-  }
+  },
+  {
+    path: '/DiseñoVideo',
+    name: 'diseñoVideo',
+    component: DiseñoVideo
+    },
+    {
+        path: '/Programacion',
+        name: 'Programacion',
+        component: Programacion
+    }
+
+
 ]
 
 const router = createRouter({
