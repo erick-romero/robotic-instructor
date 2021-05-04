@@ -42,7 +42,7 @@ export default {
                 .auth()
                 .createUserWithEmailAndPassword(this.email, this.password)
                 .then(() => {
-                    alert('Successfully registered! Please login.');
+                    alert('Registro exitoso, por favor inicia sesión');
                     this.$router.push('/');
                 })
                 .catch(error => {

@@ -11,7 +11,7 @@
             <button type="submit" class="btn btn-outline-primary" @click="verify()">Verificación de correo</button>
             <br>
             <br>
-            <button type="submit" class="btn btn-outline-secondary" v-on:click="isHidden2 = !isHidden">Cambio de correo</button>
+            <button type="submit" class="btn btn-outline-secondary" v-on:click="isHidden2 = !isHidden2">Cambio de correo</button>
             <br>
             <br>
             <div v-if="!isHidden2">
@@ -41,9 +41,10 @@
             <button type="submit" class="btn btn-outline-danger" @click="signout()">Cierre de sesión</button>
             <br>
             <br>
-            <button type="submit" class="btn btn-outline-success" @click="Blockly()">Blockly</button>
+            <a class="btn btn-outline-success"  href="localhost:3000">Blockly</a>
             <br>
             <br>
+            <tinker/>
           </div>
         </div>
       </div>
@@ -54,9 +55,13 @@
 
 <script>
 import {ref, onBeforeMount} from 'vue';
+import tinker from '@/components/tinker.vue'
 import firebase from 'firebase';
 export default {
     name: 'Cuenta',
+    components: {
+      tinker,
+    },
     data(){
       return {
         password: "",

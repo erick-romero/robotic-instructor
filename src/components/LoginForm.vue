@@ -47,20 +47,18 @@ export default {
           firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION)
             .then(() => {
               return firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(() => {
-                alert('Successfully logged in');
+                alert('Inicio de sesión correcto');
                 this.$router.push('/home_loged');
             })
               .catch(error => {
                 console.log(error.message);
-                alert(error.message);
               });
             })  
             .catch((error) => {
               // Handle Errors here.
               var errorCode = error.code;
               var errorMessage = error.message;
-              alert(errorMessage);
-              console.log(errorCode);
+              console.log(errorCode, errorMessage);
             });
         },
         forgotPwd(){
@@ -70,7 +68,6 @@ export default {
             })
             .catch(error => {
               console.log(error.message);
-              alert(error.message);
             });
         }
     },
