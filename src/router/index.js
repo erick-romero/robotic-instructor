@@ -6,6 +6,7 @@ import Home_loged from '../views/Home_loged.vue';
 import Registro from '../views/Registro.vue';
 import Cuenta from '../views/Cuenta.vue';
 import Programacion from '../views/Programacion.vue';
+import electronica from '../views/electronica.vue';
 
 
 
@@ -62,8 +63,14 @@ const routes = [
         path: '/Programacion',
         name: 'Programacion',
         component: Programacion
-    }
-
+    },
+    {
+      path: '/electronica',
+      name: 'electronica',
+      component: electronica
+    },
+  
+    
 
 ]
 
