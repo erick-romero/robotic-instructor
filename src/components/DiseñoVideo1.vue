@@ -27,6 +27,15 @@
       </div>
 
   </div>
+
+  <div class="align-items-center">
+    <iframe width="725" height="453" src="https://www.tinkercad.com/embed/eixnzgVumLs?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+  
+<br>
+<br>
+
+
 </template>
 
 <style>

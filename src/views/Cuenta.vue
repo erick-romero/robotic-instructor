@@ -44,7 +44,6 @@
             <a class="btn btn-outline-success"  href="localhost:3000">Blockly</a>
             <br>
             <br>
-            <tinker/>
           </div>
         </div>
       </div>
@@ -55,13 +54,10 @@
 
 <script>
 import {ref, onBeforeMount} from 'vue';
-import tinker from '@/components/tinker.vue'
 import firebase from 'firebase';
 export default {
     name: 'Cuenta',
-    components: {
-      tinker,
-    },
+    components: {},
     data(){
       return {
         password: "",
