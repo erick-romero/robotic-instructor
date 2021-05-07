@@ -7,12 +7,6 @@ import Registro from '../views/Registro.vue';
 import Cuenta from '../views/Cuenta.vue';
 import Programacion from '../views/Programacion.vue';
 import electronica from '../views/electronica.vue';
-
-
-
-
-
-
 import Blockly_zone from '../views/Blockly_zone.vue';
 import DiseñoVideo from '../views/DiseñoVideo.vue';
 
@@ -59,16 +53,16 @@ const routes = [
     name: 'diseñoVideo',
     component: DiseñoVideo
     },
-    {
-        path: '/Programacion',
-        name: 'Programacion',
-        component: Programacion
-    },
-    {
-      path: '/electronica',
-      name: 'electronica',
-      component: electronica
-    },
+  {
+      path: '/Programacion',
+      name: 'Programacion',
+      component: Programacion
+  },
+  {
+    path: '/Electronica',
+    name: 'electronica',
+    component: electronica
+  },
   
     
 

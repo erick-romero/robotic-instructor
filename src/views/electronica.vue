@@ -1,6 +1,8 @@
 <template>
-  
   <diseño_electronica/>
+  <br>
+  <br>
+  <iframe width="800" height="800" src="https://eduardosalaz.github.io/circuito/" frameborder="0"></iframe>
   <router-view/>
 </template>
 
