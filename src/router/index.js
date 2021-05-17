@@ -12,7 +12,7 @@ import DiseñoVideo1 from '../views/DiseñoVideo1.vue';
 import DiseñoVideo2 from '../views/DiseñoVideo2.vue';
 import DiseñoVideo3 from '../views/DiseñoVideo3.vue';
 import DiseñoVideo4 from '../views/DiseñoVideo4.vue';
-import DiseñoVideo5 from '../views/DiseñoVideo5¿.vue';
+import DiseñoVideo5 from '../views/DiseñoVideo5.vue';
 
 const routes = [
   {
