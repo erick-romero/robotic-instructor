@@ -1,6 +1,6 @@
 <template>
 <div id="top">
-  <router-link to="/diseño"> <button id="xd" type="button" class="btn btn-outline-primary ">Regresar</button> </router-link>
+  <router-link to="/Diseño"> <button id="xd" type="button" class="btn btn-outline-primary ">Regresar</button> </router-link>
   <h1 id="tit">Diseño: Episodio 1</h1>
 </div>  
   <div class="video">

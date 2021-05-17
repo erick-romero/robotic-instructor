@@ -8,7 +8,7 @@
           <div class="card-body align-center">
               <h5 class="card-title">Episodio 1</h5>
               <p class="card-text">¿Qué es el diseño 3D?</p> 
-              <router-link to = "/DiseñoVideo"><a class="btn btn-primary">Ir</a></router-link>
+              <router-link to = "/DiseñoVideo1"><a class="btn btn-primary">Ir</a></router-link>
           </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
           <div class="card-body align-center">
               <h5 class="card-title">Episodio 2</h5>
               <p class="card-text">Impresión en 3D</p> 
-              <a href="#" class="btn btn-primary">Ir</a>
+              <router-link to = "/DiseñoVideo2"><a class="btn btn-primary">Ir</a></router-link>
           </div>
     </div>
   </div>
@@ -28,7 +28,7 @@
           <div class="card-body align-center">
               <h5 class="card-title">Episodio 3</h5>
               <p class="card-text">Impresión de partes de robot en 3D</p> 
-              <a href="#" class="btn btn-primary">Ir</a>
+               <router-link to = "/DiseñoVideo3"><a class="btn btn-primary">Ir</a></router-link>
           </div>
     </div>
   </div>
@@ -38,7 +38,7 @@
           <div class="card-body align-center">
               <h5 class="card-title">Episodio 4</h5>
               <p class="card-text">Uso de TinkerCad</p> 
-              <a href="#" class="btn btn-primary">Ir</a>
+              <router-link to = "/DiseñoVideo4"><a class="btn btn-primary">Ir</a></router-link>
           </div>
     </div>
   </div>
@@ -48,7 +48,7 @@
           <div class="card-body align-center">
               <h5 class="card-title">Episodio 5</h5>
               <p class="card-text">Otros software de diseño 3D</p> 
-              <a href="#" class="btn btn-primary">Ir</a>
+              <router-link to = "/DiseñoVideo5"><a class="btn btn-primary">Ir</a></router-link>
           </div>
     </div>
   </div>

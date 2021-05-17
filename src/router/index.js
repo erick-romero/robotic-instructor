@@ -8,7 +8,11 @@ import Cuenta from '../views/Cuenta.vue';
 import Programacion from '../views/Programacion.vue';
 import electronica from '../views/electronica.vue';
 import Blockly_zone from '../views/Blockly_zone.vue';
-import DiseñoVideo from '../views/DiseñoVideo.vue';
+import DiseñoVideo1 from '../views/DiseñoVideo1.vue';
+import DiseñoVideo2 from '../views/DiseñoVideo2.vue';
+import DiseñoVideo3 from '../views/DiseñoVideo3.vue';
+import DiseñoVideo4 from '../views/DiseñoVideo4.vue';
+import DiseñoVideo5 from '../views/DiseñoVideo5¿.vue';
 
 const routes = [
   {
@@ -49,9 +53,9 @@ const routes = [
     component: Cuenta
   },
   {
-    path: '/DiseñoVideo',
-    name: 'diseñoVideo',
-    component: DiseñoVideo
+    path: '/DiseñoVideo1',
+    name: 'DiseñoVideo1',
+    component: DiseñoVideo1
     },
   {
       path: '/Programacion',
@@ -63,9 +67,26 @@ const routes = [
     name: 'electronica',
     component: electronica
   },
-  
-    
-
+  {
+    path: '/DiseñoVideo2',
+    name : 'diseñoVideo2',
+    component: DiseñoVideo2
+  },
+  {
+    path: '/DiseñoVideo3',
+    name : 'diseñoVideo3',
+    component: DiseñoVideo3
+  },
+  {
+    path: '/DiseñoVideo4',
+    name : 'diseñoVideo4',
+    component: DiseñoVideo4
+  },
+  {
+    path: '/DiseñoVideo5',
+    name : 'diseñoVideo5',
+    component: DiseñoVideo5
+  }
 ]
 
 const router = createRouter({
