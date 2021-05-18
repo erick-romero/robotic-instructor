@@ -13,6 +13,16 @@ import DiseñoVideo2 from '../views/DiseñoVideo2.vue';
 import DiseñoVideo3 from '../views/DiseñoVideo3.vue';
 import DiseñoVideo4 from '../views/DiseñoVideo4.vue';
 import DiseñoVideo5 from '../views/DiseñoVideo5.vue';
+import ElectronicaVideo1 from '../views/ElectronicaVideo1.vue';
+import ElectronicaVideo2 from '../views/ElectronicaVideo2.vue';
+import ElectronicaVideo3 from '../views/ElectronicaVideo3.vue';
+import ElectronicaVideo4 from '../views/ElectronicaVideo4.vue';
+import ElectronicaVideo5 from '../views/ElectronicaVideo5.vue';
+import ProgramacionVideo1 from '../views/ProgramacionVideo1.vue';
+import ProgramacionVideo2 from '../views/ProgramacionVideo2.vue';
+import ProgramacionVideo3 from '../views/ProgramacionVideo3.vue';
+import ProgramacionVideo4 from '../views/ProgramacionVideo4.vue';
+import ProgramacionVideo5 from '../views/ProgramacionVideo5.vue';
 
 const routes = [
   {
@@ -86,7 +96,59 @@ const routes = [
     path: '/DiseñoVideo5',
     name : 'diseñoVideo5',
     component: DiseñoVideo5
-  }
+  },
+  {
+    path: '/ElectronicaVideo1',
+    name : 'electronicaVideo1',
+    component: ElectronicaVideo1
+  },
+  {
+    path: '/ElectronicaVideo2',
+    name : 'electronicaVideo2',
+    component: ElectronicaVideo2
+  },
+  {
+    path: '/ElectronicaVideo3',
+    name : 'electronicaVideo3',
+    component: ElectronicaVideo3
+  },
+  {
+    path: '/ElectronicaVideo4',
+    name : 'electronicaVideo4',
+    component: ElectronicaVideo4
+  },
+  {
+    path: '/ElectronicaVideo5',
+    name : 'electronicaVideo5',
+    component: ElectronicaVideo5
+  },
+  {
+    path: '/ProgramacionVideo1',
+    name: 'programacionVideo1',
+    component: ProgramacionVideo1
+  },
+  {
+    path: '/ProgramacionVideo2',
+    name: 'programacionVideo2',
+    component: ProgramacionVideo2
+  },
+  {
+    path: '/ProgramacionVideo3',
+    name: 'programacionVideo3',
+    component: ProgramacionVideo3
+  },
+  {
+    path: '/ProgramacionVideo4',
+    name: 'programacionVideo4',
+    component: ProgramacionVideo4
+  },
+  {
+    path: '/ProgramacionVideo5',
+    name: 'programacionVideo5',
+    component: ProgramacionVideo5
+  },
+
+
 ]
 
 const router = createRouter({

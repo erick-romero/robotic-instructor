@@ -8,7 +8,7 @@
                 <div class="card-body align-center">
                     <h5 class="card-title">Episodio 1</h5>
                     <p class="card-text">¿Que es la programacion?</p>
-                    <a href="#" class="btn btn-primary">Ir</a>
+                    <router-link to = "/ProgramacionVideo1"><a class="btn btn-primary">Ir</a></router-link>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
                 <div class="card-body align-center">
                     <h5 class="card-title">Episodio 2</h5>
                     <p class="card-text">Usos Generales de la Programacion</p>
-                    <a href="#" class="btn btn-primary">Ir</a>
+                    <router-link to = "/ProgramacionVideo2"><a class="btn btn-primary">Ir</a></router-link>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
                 <div class="card-body align-center">
                     <h5 class="card-title">Episodio 3</h5>
                     <p class="card-text">Programacion en Robotica</p>
-                    <a href="#" class="btn btn-primary">Ir</a>
+                    <router-link to = "/ProgramacionVideo3"><a class="btn btn-primary">Ir</a></router-link>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                 <div class="card-body align-center">
                     <h5 class="card-title">Episodio 4</h5>
                     <p class="card-text">Tomar decisiones con programacion</p>
-                    <a href="#" class="btn btn-primary">Ir</a>
+                    <router-link to = "/ProgramacionVideo4"><a class="btn btn-primary">Ir</a></router-link>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <div class="card-body align-center">
                     <h5 class="card-title">Episodio 5</h5>
                     <p class="card-text">Software para simular programaciones</p>
-                    <a href="#" class="btn btn-primary">Ir</a>
+                    <router-link to = "/ProgramacionVideo5"><a class="btn btn-primary">Ir</a></router-link>
                 </div>
             </div>
         </div>
