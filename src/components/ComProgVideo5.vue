@@ -23,6 +23,10 @@ Es todo por el video de hoy, esperamos que estos videos te hayan servido, y te h
           </pre>
 
         </p>
+
+                    <br>
+            <a class="btn btn-outline-success"  href="https://friendly-cray-7b4d65.netlify.app/">Blockly</a>
+            <br>
       </div>
 
   </div>

@@ -41,9 +41,6 @@
             <button type="submit" class="btn btn-outline-danger" @click="signout()">Cierre de sesión</button>
             <br>
             <br>
-            <a class="btn btn-outline-success"  href="https://friendly-cray-7b4d65.netlify.app/">Blockly</a>
-            <br>
-            <br>
           </div>
         </div>
       </div>

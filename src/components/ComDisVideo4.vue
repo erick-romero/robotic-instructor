@@ -23,7 +23,9 @@ En otras palabras, está dividiendo el objeto en una pila de capas planas y desc
           </pre>
         </p>
       </div>
-
+        <div class="align-items-center">
+    <iframe width="725" height="453" src="https://www.tinkercad.com/embed/b8d9wgk69fP?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
   </div>
   <br>
 <br>
