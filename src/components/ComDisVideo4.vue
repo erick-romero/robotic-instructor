@@ -22,7 +22,11 @@ El software de corte convierte el modelo 3D en una serie de capas delgadas y pro
 En otras palabras, está dividiendo el objeto en una pila de capas planas y describe estas capas como movimientos lineales del extrusor de la impresora 3D.
           </pre>
         </p>
+
       </div>
+      <div style="font-size:30px;">
+    Debajo encontraras una simulacion con la cual puedes interactuar
+   </div>
         <div class="align-items-center">
     <iframe width="725" height="453" src="https://www.tinkercad.com/embed/b8d9wgk69fP?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </div>

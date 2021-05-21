@@ -1,6 +1,8 @@
 <template>
     <h1 style="margin: 50px">Programacion</h1>
-
+    <div style="font-size:30px;">
+    Selecciona el episodio que quieras aprender
+   </div>
     <div class="row">
         <div class="col">
             <div class="card">

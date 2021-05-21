@@ -1,6 +1,8 @@
 <template>
     <h1 style="margin: 50px">Electronica</h1>
-
+    <div style="font-size:30px;">
+    Selecciona el episodio que quieras aprender
+   </div>
     <div class="row">
         <div class="col">
             <div class="card">
@@ -54,6 +56,9 @@
         </div>
 
     </div>
+    <div style="font-size:30px;">
+             Debajo encontraras un simulador de electronica en el cual puedes practicar mas sobre este tema
+   </div>
 
 </template>
 

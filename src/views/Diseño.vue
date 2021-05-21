@@ -1,6 +1,7 @@
 <template>
   
   <diseño_episodios/>
+  
   <router-view/>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
   <carrusel/>
-  <div>
+  <div style="background-color:#00A8A8; color:white; font-size:30px;">
     Bienvenido a Robotic Instructor. Esta pagina fue diseñada para el aprenizaje de distintos temas de robotica
   </div> 
-  <div>
+  <div style="background-color:#00A8A8;  color:white; font-size:30px;">
     Seleccion alguno de los bloques de abajo para comenzar tu viaje de aprendizaje
   </div> 
   <tarjeta/>

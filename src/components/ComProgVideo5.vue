@@ -23,7 +23,9 @@ Es todo por el video de hoy, esperamos que estos videos te hayan servido, y te h
           </pre>
 
         </p>
-
+          <div style="font-size:30px;">
+            En el siguiente boton puedes encontrar un simulador de programacion para que pongas en practico lo aprendido
+                  </div>
                     <br>
             <a class="btn btn-outline-success"  href="https://friendly-cray-7b4d65.netlify.app/">Blockly</a>
             <br>
