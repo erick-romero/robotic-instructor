@@ -4,7 +4,7 @@
     Bienvenido a Robotic Instructor. Esta pagina fue diseñada para el aprenizaje de distintos temas de robotica
   </div> 
   <div style="background-color:#00A8A8;  color:white; font-size:30px;">
-    Seleccion alguno de los bloques de abajo para comenzar tu viaje de aprendizaje
+    Selecciona alguno de los bloques de abajo para comenzar tu viaje de aprendizaje
   </div> 
   <tarjeta/>
   <router-view/>
